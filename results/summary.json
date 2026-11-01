@@ -1,0 +1,49 @@
+{
+  "sprints": 1691,
+  "train": 1180,
+  "test": 511,
+  "projects": [
+    "Apache Mesos",
+    "Appcelerator Studio",
+    "Atlassian Confluence Cloud",
+    "Atlassian Confluence Server",
+    "Lsstcorp Data management",
+    "Mule",
+    "The Titanium SDK",
+    "Titanium Mobile Platform"
+  ],
+  "median_sprint_days": 13.83,
+  "labels": {
+    "main: pace + completion": {
+      "tag_cut_points": [
+        0.1633,
+        0.3537,
+        0.6298
+      ],
+      "tag_shares": {
+        "Poor": 0.281,
+        "Fair": 0.218,
+        "Good": 0.297,
+        "Excellent": 0.204
+      }
+    },
+    "sensitivity: pace only": {
+      "tag_cut_points": [
+        0.102,
+        0.3084,
+        0.6192
+      ],
+      "tag_shares": {
+        "Poor": 0.276,
+        "Fair": 0.222,
+        "Good": 0.288,
+        "Excellent": 0.215
+      }
+    }
+  },
+  "python": "3.13.16",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "seed": 42
+}
