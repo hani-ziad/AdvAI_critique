@@ -1,16 +1,16 @@
 """Rebuild a day-by-day burndown for every TAWOS sprint.
 
-The paper we critique (Perez Castillo et al., Information 2024) reads its
+The paper I critique (Perez Castillo et al., Information 2024) reads its
 features off the Worki burndown chart and the "completed vs not completed"
-chart. TAWOS has no such charts, but our Phase 1-3 code can rebuild the sprint
+chart. TAWOS has no such charts, but my Phase 1-3 code can rebuild the sprint
 membership and the resolution state of every issue at any moment from the Jira
 change log. This script does that once per day of each sprint and writes one
 row per (sprint, day) to data/burndown_daily.csv.
 
-It reuses the reconstruction code of our main project (SwEng_202610), which
+It reuses the reconstruction code of my main project (SwEng_202610), which
 must be available on disk. Point to it with the SWENG_ROOT environment
-variable; by default we look for ../course-submission/SwEng_202610 next to this
-repository (that is where it sits on our machine).
+variable; by default it looks for ../course-submission/SwEng_202610 next to this
+repository (that is where it sits on my machine).
 
 Only issue counts are used. Story points are missing for many TAWOS issues and
 Worki's "hours" do not exist here.

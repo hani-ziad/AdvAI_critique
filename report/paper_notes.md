@@ -38,7 +38,7 @@ Recall equals Accuracy in every row, which is what weighted-average recall alway
 | Good | 0 | 5 | 158 | 4 |
 | Excellent | 0 | 0 | 4 | 134 |
 Sums to 551, so it pools all cross-validation folds. Class sizes 146 / 100 / 167 / 138, so always guessing Good scores .303.
-Per class (our arithmetic from Table 4): recall .884 / .620 / .946 / .971; precision .890 / .756 / .854 / .964; F1 .887 / .681 / .898 / .968; macro F1 .858; accuracy .877.
+Per class (my arithmetic from Table 4): recall .884 / .620 / .946 / .971; precision .890 / .756 / .854 / .964; F1 .887 / .681 / .898 / .968; macro F1 .858; accuracy .877.
 Small error in the text: it says "five instances labeled as Fair were misclassified as Good", but the 5 sit in the Good row, Fair column (Good predicted as Fair).
 
 ## Claims vs evidence

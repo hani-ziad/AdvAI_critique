@@ -15,7 +15,7 @@ E3  Early warning, which is what the paper says the tool is for ("detect
     days up to 25% or 50% of the sprint; the label is still the end-of-sprint
     TAG. Time split.
 
-Everything is run twice: with our main TAG and with the "pace only" TAG
+Everything is run twice: with my main TAG and with the "pace only" TAG
 (see features.py).
 
     python src/reality_check.py      (needs data/burndown_daily.csv)
