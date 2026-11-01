@@ -1,19 +1,19 @@
 label,experiment,model,accuracy,accuracy_ci,f1_macro,f1_macro_ci,poor_recall
-main: pace + completion,"E2 time split, end of sprint",RF,0.748,"(np.float64(0.708), np.float64(0.787))",0.739,"(np.float64(0.698), np.float64(0.776))",0.877
-main: pace + completion,"E2 time split, end of sprint",Majority class,0.284,"(np.float64(0.247), np.float64(0.323))",0.111,"(np.float64(0.099), np.float64(0.123))",0.0
-main: pace + completion,"E2 time split, end of sprint",LR on R1 only,0.751,"(np.float64(0.714), np.float64(0.789))",0.733,"(np.float64(0.692), np.float64(0.771))",0.92
-main: pace + completion,"E3 time split, features at 50% of sprint",RF,0.585,"(np.float64(0.54), np.float64(0.624))",0.569,"(np.float64(0.525), np.float64(0.612))",0.84
-main: pace + completion,"E3 time split, features at 50% of sprint",Majority class,0.284,"(np.float64(0.247), np.float64(0.325))",0.111,"(np.float64(0.098), np.float64(0.121))",0.0
-main: pace + completion,"E3 time split, features at 50% of sprint",LR on R1 only,0.597,"(np.float64(0.552), np.float64(0.64))",0.568,"(np.float64(0.527), np.float64(0.609))",0.914
-main: pace + completion,"E3 time split, features at 25% of sprint",NB,0.507,"(np.float64(0.464), np.float64(0.552))",0.465,"(np.float64(0.417), np.float64(0.507))",0.889
-main: pace + completion,"E3 time split, features at 25% of sprint",Majority class,0.284,"(np.float64(0.245), np.float64(0.323))",0.111,"(np.float64(0.1), np.float64(0.121))",0.0
-main: pace + completion,"E3 time split, features at 25% of sprint",LR on R1 only,0.474,"(np.float64(0.429), np.float64(0.519))",0.396,"(np.float64(0.356), np.float64(0.431))",0.926
-sensitivity: pace only,"E2 time split, end of sprint",MLP,0.646,"(np.float64(0.603), np.float64(0.685))",0.628,"(np.float64(0.584), np.float64(0.672))",0.863
-sensitivity: pace only,"E2 time split, end of sprint",Majority class,0.254,"(np.float64(0.219), np.float64(0.292))",0.101,"(np.float64(0.089), np.float64(0.115))",0.0
-sensitivity: pace only,"E2 time split, end of sprint",LR on R1 only,0.552,"(np.float64(0.509), np.float64(0.597))",0.516,"(np.float64(0.475), np.float64(0.56))",0.882
-sensitivity: pace only,"E3 time split, features at 50% of sprint",LR,0.671,"(np.float64(0.632), np.float64(0.712))",0.664,"(np.float64(0.623), np.float64(0.704))",0.922
-sensitivity: pace only,"E3 time split, features at 50% of sprint",Majority class,0.254,"(np.float64(0.219), np.float64(0.292))",0.101,"(np.float64(0.09), np.float64(0.112))",0.0
-sensitivity: pace only,"E3 time split, features at 50% of sprint",LR on R1 only,0.669,"(np.float64(0.626), np.float64(0.71))",0.654,"(np.float64(0.614), np.float64(0.696))",0.967
-sensitivity: pace only,"E3 time split, features at 25% of sprint",MLP,0.587,"(np.float64(0.544), np.float64(0.628))",0.568,"(np.float64(0.526), np.float64(0.611))",0.935
-sensitivity: pace only,"E3 time split, features at 25% of sprint",Majority class,0.254,"(np.float64(0.217), np.float64(0.292))",0.101,"(np.float64(0.089), np.float64(0.113))",0.0
-sensitivity: pace only,"E3 time split, features at 25% of sprint",LR on R1 only,0.55,"(np.float64(0.503), np.float64(0.595))",0.486,"(np.float64(0.45), np.float64(0.519))",0.993
+main: pace + completion,"E2 time split, end of sprint",RF,0.748,"(0.708, 0.787)",0.739,"(0.698, 0.776)",0.877
+main: pace + completion,"E2 time split, end of sprint",Majority class,0.284,"(0.247, 0.323)",0.111,"(0.099, 0.123)",0.0
+main: pace + completion,"E2 time split, end of sprint",LR on R1 only,0.751,"(0.714, 0.789)",0.733,"(0.692, 0.771)",0.92
+main: pace + completion,"E3 time split, features at 50% of sprint",RF,0.585,"(0.54, 0.624)",0.569,"(0.525, 0.612)",0.84
+main: pace + completion,"E3 time split, features at 50% of sprint",Majority class,0.284,"(0.247, 0.325)",0.111,"(0.098, 0.121)",0.0
+main: pace + completion,"E3 time split, features at 50% of sprint",LR on R1 only,0.597,"(0.552, 0.64)",0.568,"(0.527, 0.609)",0.914
+main: pace + completion,"E3 time split, features at 25% of sprint",NB,0.507,"(0.464, 0.552)",0.465,"(0.417, 0.507)",0.889
+main: pace + completion,"E3 time split, features at 25% of sprint",Majority class,0.284,"(0.245, 0.323)",0.111,"(0.1, 0.121)",0.0
+main: pace + completion,"E3 time split, features at 25% of sprint",LR on R1 only,0.474,"(0.429, 0.519)",0.396,"(0.356, 0.431)",0.926
+sensitivity: pace only,"E2 time split, end of sprint",MLP,0.646,"(0.603, 0.685)",0.628,"(0.584, 0.672)",0.863
+sensitivity: pace only,"E2 time split, end of sprint",Majority class,0.254,"(0.219, 0.292)",0.101,"(0.089, 0.115)",0.0
+sensitivity: pace only,"E2 time split, end of sprint",LR on R1 only,0.552,"(0.509, 0.597)",0.516,"(0.475, 0.56)",0.882
+sensitivity: pace only,"E3 time split, features at 50% of sprint",LR,0.671,"(0.632, 0.712)",0.664,"(0.623, 0.704)",0.922
+sensitivity: pace only,"E3 time split, features at 50% of sprint",Majority class,0.254,"(0.219, 0.292)",0.101,"(0.09, 0.112)",0.0
+sensitivity: pace only,"E3 time split, features at 50% of sprint",LR on R1 only,0.669,"(0.626, 0.71)",0.654,"(0.614, 0.696)",0.967
+sensitivity: pace only,"E3 time split, features at 25% of sprint",MLP,0.587,"(0.544, 0.628)",0.568,"(0.526, 0.611)",0.935
+sensitivity: pace only,"E3 time split, features at 25% of sprint",Majority class,0.254,"(0.217, 0.292)",0.101,"(0.089, 0.113)",0.0
+sensitivity: pace only,"E3 time split, features at 25% of sprint",LR on R1 only,0.55,"(0.503, 0.595)",0.486,"(0.45, 0.519)",0.993

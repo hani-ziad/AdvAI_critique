@@ -91,7 +91,7 @@ def boot_ci(y, p, metric, rng) -> tuple[float, float]:
     for _ in range(N_BOOT):
         i = rng.integers(0, n, n)
         vals.append(metric(y[i], p[i]))
-    return tuple(np.percentile(vals, [2.5, 97.5]).round(3))
+    return tuple(round(float(x), 3) for x in np.percentile(vals, [2.5, 97.5]))
 
 
 def run_set(name, table, fit_pred, cols_all=R_COLS):
